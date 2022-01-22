@@ -1,0 +1,13 @@
+﻿.kama-select {
+	width: 100%;
+    cursor: pointer;
+
+    option {
+        cursor: pointer;
+    }
+}
+
+.kama-lazyselect + .select2-container {
+    width: 100% !important;
+    display: block;
+}
